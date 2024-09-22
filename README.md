@@ -1,1 +1,5 @@
 # DS6600_lab1
+
+## License Choice
+
+I chose the MIT license for the simple reason that it appeared to be the most flexible license and it appeared to satisfy the most requirements from the list of requirements in the lab description file. In the lab description file for choosing the license, it says that it "should allow other people to use the code in the repository for commerical and noncommerical use, including full rights to distribute and modify the code, but does not allow anyone to modify and distribute your code with a more restrictive license than the one included in your repository." The MIT license does exactly that. It says that the software is available for free for anyone without restrictions. The only thing people must do is include the license in their implementation with whatever changes they would like to make. Furthermore, the license says that parties who use it cannot limit further use of the software for anyone else. Thus, this solidifies my choice for the license. 
