@@ -5,8 +5,8 @@ services:
       - "8888:8888"
     env_file:
       - .env
-    volume:
-      - problem5volume
+    volumes:
+      -  ./:/ds6600/lab1/problem5
     networks:
       - dbnetwork
   postgres:
