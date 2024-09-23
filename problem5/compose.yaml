@@ -1,0 +1,25 @@
+services:
+  jupyter:
+    image: jcmiskill/problem5docker
+    ports:
+      - "8888:8888"
+    env_file:
+      - .env
+    networks:
+      - dbnetwork
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env
+    volumes:
+      - postgresdata:/var/lib/postgresql/data
+    networks:
+      - dbnetwork
+volumes:
+  postgresdata:
+  mongodata:
+
+networks:
+  dbnetwork: 
